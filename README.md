@@ -1,36 +1,32 @@
 # Waikato Digital & Tech Ecosystem
 
-This repository contains the final version of a team project completed for the
-University of Waikato Master of IT programme.
-
-The project recreates the Waikato Digital & Tech Ecosystem website as a coded
-Next.js application. The site includes public pages, an ecosystem directory, a
-map view, case studies, and several forms for joining or contacting the
-ecosystem.
-
-It was built during an internship-style client project, so the repository is
-kept close to the final version we delivered to the client rather than being
-rewritten afterwards as a production product.
+Waikato Digital & Tech Ecosystem is a client-delivered web application built by
+a three-person team during my University of Waikato industry internship. We
+moved the client's ecosystem site from a no-code approach to a coded Next.js
+application with a searchable organisation directory, interactive map, case
+studies, and stakeholder forms.
 
 ## My Role
 
-My main responsibility was the frontend work. I translated the client's
-no-code website into a responsive Next.js interface, built the page layouts and
-components, worked on the map/search/filter experience, and connected frontend
-pages with the team's Xano backend endpoints.
+As the frontend developer, I:
 
-I also joined client meetings and demos, then adjusted the UI based on feedback
-during the project.
+- Implemented the responsive site interface across the homepage and eight main
+  subpages with Next.js, TypeScript, and Tailwind CSS.
+- Built the organisation directory's search and filtering experience and an
+  interactive Google Maps view with clustered markers.
+- Connected data-driven frontend screens to the team's Xano endpoints.
+- Built the Join, Contact, and Opt-out form interfaces with client-side
+  validation and feedback; added Photon address autocomplete to Join and
+  collaborated with the backend teammate on submission integration.
+- Demonstrated frontend progress to the client and refined the UI from feedback.
 
 ## What It Includes
 
-- A Next.js and TypeScript frontend
-- Responsive pages styled with Tailwind CSS
-- Google Maps integration for ecosystem organisations
-- Search and filter views for the organisation directory
-- Case study pages based on project content
-- Demo form pages for joining, contact, and opt-out flows
-- Xano API integration for organisation data
+- Responsive Next.js and TypeScript pages styled with Tailwind CSS
+- Searchable and filterable ecosystem organisation directory
+- Google Maps view with marker clustering
+- Case study pages and three validated stakeholder forms
+- Frontend integration with Xano organisation data
 
 ## Tech Stack
 
@@ -71,19 +67,15 @@ Then open:
 http://localhost:3000
 ```
 
-## Project Notes
+## Handover Notes
 
-This was an internship-style project delivered to a client. After the internship
-ended, our team was not responsible for ongoing maintenance, so this repository
-shows the final delivered version rather than a continuously maintained service.
-Some parts are intentionally left as they were at handover time:
+This repository preserves the project source at handover. To run data-driven
+views, supply the required Xano and Google Maps environment variables. In the
+published snapshot, the form interfaces retain demo submit handlers; the team
+worked together on the backend integration during delivery.
 
-- The directory and map pages require valid Xano environment variables.
-- Some statistics and filter options are static placeholders.
-- The join, contact, and opt-out forms use demo handlers rather than a live
-  submission service.
-- The repository keeps the original project structure so it remains close to
-  the version delivered to the client.
+The client received the project at the end of the internship; ongoing
+maintenance was outside our team's scope.
 
 ## Project Structure
 
